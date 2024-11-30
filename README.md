@@ -40,8 +40,8 @@ Webstone has its own configuration file, located at `.minecraft/config/webstone-
 | Key | Default value | Description |
 | --- | --- | --- |
 | `Passphrase` | `""` | Passphrase to allow only authorized users. |
-| `WebSocketPort` | `4321` | Port used by the Webstone WebSocket Server. |
-| `SecureWebSocket` | `false` | Specifies if the WebSocket should use a secure connection. |
+| `WebSocketPort` | `9247` | Port used by the Webstone WebSocket Server. |
+| `SecureWebSocket` | `true` | Specifies if the WebSocket should use a secure connection. |
 | `CertificateFilename` | `cert.pem` | Filename of the certificate public key inside `.minecraft/data`. |
 | `CertificateKeyFilename` | `key.pem` | Filename of the certificate private key inside `.minecraft/data`. |
 | `CertificateKeyPass` | `""` | Passphrase used for the private key. |
